@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<wsdl:definitions name="WsCalc" 
+         xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+         xmlns:soapenc="http://schemas.xmlsoap.com/soap/encoding/"
+         xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+         xmlns:tns="http://localhost/exemplos_aula/Capitulo4/soap/" >
+
+  <wsdl:message name="MensagemRequisicao">
+    <wsdl:part name="num_a" type="xsd:double"></wsdl:part>
+    <wsdl:part name="num_b" type="xsd:double"></wsdl:part>
+  </wsdl:message>
+
+  <wsdl:message name="MensagemResposta">
+    <wsdl:part name="resultado" type="xsd:double"></wsdl:part>
+  </wsdl:message>
+
+
+  <wsdl:portType name="WsCalcPortType">
+    <wsdl:operation name="soma">
+      <wsdl:input message="tns:MensagemRequisicao"></wsdl:input>
+      <wsdl:output message="tns:MensagemResposta"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="subtracao">
+      <wsdl:input message="tns:MensagemRequisicao"></wsdl:input>
+      <wsdl:output message="tns:MensagemResposta"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="multiplicacao">
+      <wsdl:input message="tns:MensagemRequisicao"></wsdl:input>
+      <wsdl:output message="tns:MensagemResposta"></wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+
+
+  <wsdl:binding name="WsCalcBinding" type="tns:WsCalcPortType" >
+
+    <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+    <wsdl:operation name="soma">
+      <soap:operation soapAction="urn:wscalc#soma" />      
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wscalc"
+                   encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wscalc"
+                   encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>    
+
+
+    <wsdl:operation name="subtracao">
+      <soap:operation soapAction="urn:wscalc#subtracao" />      
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wscalc"
+                   encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wscalc"
+                   encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>    
+
+
+    <wsdl:operation name="multiplicacao">
+      <soap:operation soapAction="urn:wscalc#multiplicacao" />      
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wscalc"
+                   encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wscalc"
+                   encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>   
+
+  </wsdl:binding>
+
+
+
+  <wsdl:service name="WsCalcService">
+    <wsdl:port name="WsCalcPort" binding="tns:WsCalcBinding">
+      <soap:address location="http://localhost/exemplos_aula/Capitulo4/soap/servidor.php" />
+    </wsdl:port>
+  </wsdl:service>
+
+
+</wsdl:definitions>

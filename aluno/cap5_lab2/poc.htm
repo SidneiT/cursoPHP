@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Client</title>
+
+<script type="text/javascript">
+
+	function consultar() {
+		
+		// recuperar o valor do input 'encomenda'
+		var encomenda = document.getElementById('encomenda').value;
+		
+		var url_ws = './ws_soap_client.php?&id=' + encomenda;
+
+		// criando objeto da classe XMLHttpRequest
+		var ajax = new XMLHttpRequest();
+
+		# Capítulo 5 - Laboratório 2
+
+	}
+</script>
+</head>
+<body>
+
+	<table border="2">
+		<tr>
+			<td><input type="text" id="encomenda" size="5" /></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="Consultar"
+					   onclick="consultar()" /></td>
+		</tr>
+	</table>
+	
+	<div id="resultado"></div>
+
+</body>
+</html>

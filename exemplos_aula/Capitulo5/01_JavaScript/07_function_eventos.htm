@@ -1,0 +1,29 @@
+<html>
+  <head>
+
+    <script type="text/javascript">
+
+      // http://www.w3schools.com/jsref/dom_obj_event.asp
+
+
+      function exibirAlerta( texto ) {
+        alert( texto );
+      }
+
+    </script>
+
+  </head>
+  <body onload="exibirAlerta('alerta ao carregar arquivo!')">
+
+    <input type="text" onfocus="exibirAlerta('foco no input')" />
+
+    <br>
+
+    <input type="button" onclick="exibirAlerta('click no botao')" />
+
+    <br>
+ 
+    <input type="button" onmouseover="exibirAlerta('ponteiro sobre botao')" />
+
+  </body>
+</html>

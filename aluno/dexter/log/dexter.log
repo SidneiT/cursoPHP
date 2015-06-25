@@ -1,0 +1,251 @@
+[ 26/10/2013 03:16:56 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:16:56 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:16:56 ] SQL parametros : (admin)
+[ 26/10/2013 03:17:19 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:17:19 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:17:19 ] SQL parametros : (admin)
+[ 26/10/2013 03:17:21 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:17:21 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:17:21 ] SQL parametros : (admin)
+[ 26/10/2013 03:17:29 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:17:29 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:17:29 ] SQL parametros : (admin)
+[ 26/10/2013 03:17:29 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:17:29 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:17:29 ] SQL parametros : (admin)
+[ 26/10/2013 03:17:34 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:17:34 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:17:34 ] SQL parametros : (admin)
+[ 26/10/2013 03:17:39 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:17:39 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:17:39 ] SQL parametros : (admin)
+[ 26/10/2013 03:18:13 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:18:13 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:18:13 ] SQL parametros : (admin)
+[ 26/10/2013 03:18:13 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:18:13 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:18:13 ] SQL parametros : (admin)
+[ 26/10/2013 03:18:16 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:18:16 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:18:16 ] SQL parametros : (admin)
+[ 26/10/2013 03:18:23 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:18:23 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:18:23 ] SQL parametros : (admin)
+[ 26/10/2013 03:18:23 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:18:23 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:18:23 ] SQL parametros : (admin)
+[ 26/10/2013 03:19:31 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:19:31 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:19:31 ] SQL parametros : (admin)
+[ 26/10/2013 03:19:36 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:19:36 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:19:36 ] SQL parametros : (admin)
+[ 26/10/2013 03:19:54 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:19:54 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:19:54 ] SQL parametros : (admin)
+[ 26/10/2013 03:19:54 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:19:54 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:19:54 ] SQL parametros : (admin)
+[ 26/10/2013 03:20:02 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:20:02 ] SQL executada : 'SELECT * FROM funcionarios'
+[ 26/10/2013 03:20:02 ] SQL parametros : ()
+[ 26/10/2013 03:20:02 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:20:02 ] SQL parametros : (admin)
+[ 26/10/2013 03:20:02 ] SQL executada : 'SELECT * FROM perfis WHERE id = ?'
+[ 26/10/2013 03:20:02 ] SQL parametros : (admin)
+[ 26/10/2013 03:20:03 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:20:03 ] SQL executada : 'SELECT * FROM banners'
+[ 26/10/2013 03:20:03 ] SQL parametros : ()
+[ 26/10/2013 03:20:03 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:20:03 ] SQL parametros : (admin)
+[ 26/10/2013 03:20:04 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:20:04 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:20:04 ] SQL parametros : (admin)
+[ 26/10/2013 03:20:05 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:20:05 ] SQL executada : 'SELECT * FROM banners'
+[ 26/10/2013 03:20:05 ] SQL parametros : ()
+[ 26/10/2013 03:20:05 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:20:05 ] SQL parametros : (admin)
+[ 26/10/2013 03:21:23 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:21:23 ] SQL executada : 'SELECT * FROM banners WHERE id = ?'
+[ 26/10/2013 03:21:23 ] SQL parametros : (4)
+[ 26/10/2013 03:21:23 ] SQL executada : 'DELETE FROM banners WHERE id = ?'
+[ 26/10/2013 03:21:23 ] SQL parametros : (4)
+[ 26/10/2013 03:21:23 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:21:23 ] SQL parametros : (admin)
+[ 26/10/2013 03:21:23 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:21:23 ] SQL executada : 'SELECT * FROM banners'
+[ 26/10/2013 03:21:23 ] SQL parametros : ()
+[ 26/10/2013 03:21:23 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:21:23 ] SQL parametros : (admin)
+[ 26/10/2013 03:22:04 ] Conectado ao banco 'mysql'
+[ 26/10/2013 03:22:04 ] SQL executada : 'SELECT * FROM banners'
+[ 26/10/2013 03:22:04 ] SQL parametros : ()
+[ 26/10/2013 03:22:04 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:22:04 ] SQL parametros : (admin)
+[ 26/10/2013 03:22:06 ] Conectado ao banco 'mysql'
+[ 26/10/2013 03:22:06 ] SQL executada : 'SELECT * FROM banners WHERE id = ?'
+[ 26/10/2013 03:22:06 ] SQL parametros : (4)
+[ 26/10/2013 03:22:06 ] SQL executada : 'DELETE FROM banners WHERE id = ?'
+[ 26/10/2013 03:22:06 ] SQL parametros : (4)
+[ 26/10/2013 03:22:06 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:22:06 ] SQL parametros : (admin)
+[ 26/10/2013 03:22:06 ] Conectado ao banco 'mysql'
+[ 26/10/2013 03:22:06 ] SQL executada : 'SELECT * FROM banners'
+[ 26/10/2013 03:22:06 ] SQL parametros : ()
+[ 26/10/2013 03:22:06 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:22:06 ] SQL parametros : (admin)
+[ 26/10/2013 03:22:29 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:22:29 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:22:29 ] SQL parametros : (admin)
+[ 26/10/2013 03:22:45 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:22:45 ] SQL executada : 'SELECT * FROM banners WHERE id = ?'
+[ 26/10/2013 03:22:45 ] SQL parametros : ()
+[ 26/10/2013 03:22:45 ] SQL executada : 'INSERT INTO banners (descricao, imagem) VALUES (?, ?)'
+[ 26/10/2013 03:22:45 ] SQL parametros : (Banner 4, banner/20131026032245_Novo_banner.jpg)
+[ 26/10/2013 03:22:45 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:22:45 ] SQL parametros : (admin)
+[ 26/10/2013 03:22:45 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:22:45 ] SQL executada : 'SELECT * FROM banners'
+[ 26/10/2013 03:22:45 ] SQL parametros : ()
+[ 26/10/2013 03:22:45 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:22:45 ] SQL parametros : (admin)
+[ 26/10/2013 03:22:55 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:22:55 ] SQL executada : 'SELECT * FROM conteudos WHERE id = ?'
+[ 26/10/2013 03:22:55 ] SQL parametros : (1)
+[ 26/10/2013 03:22:55 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:22:55 ] SQL parametros : (front)
+[ 26/10/2013 03:23:07 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:23:07 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:23:07 ] SQL parametros : (front)
+[ 26/10/2013 03:23:07 ] SQL executada : 'SELECT * FROM banners'
+[ 26/10/2013 03:23:07 ] SQL parametros : ()
+[ 26/10/2013 03:23:08 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:23:08 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:23:08 ] SQL parametros : (front)
+[ 26/10/2013 03:23:08 ] SQL executada : 'SELECT * FROM banners'
+[ 26/10/2013 03:23:08 ] SQL parametros : ()
+[ 26/10/2013 03:23:31 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:23:31 ] SQL executada : 'SELECT * FROM banners WHERE id = ?'
+[ 26/10/2013 03:23:31 ] SQL parametros : (5)
+[ 26/10/2013 03:23:31 ] SQL executada : 'DELETE FROM banners WHERE id = ?'
+[ 26/10/2013 03:23:31 ] SQL parametros : (5)
+[ 26/10/2013 03:23:31 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:23:31 ] SQL parametros : (admin)
+[ 26/10/2013 03:23:32 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:23:32 ] SQL executada : 'SELECT * FROM banners'
+[ 26/10/2013 03:23:32 ] SQL parametros : ()
+[ 26/10/2013 03:23:32 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:23:32 ] SQL parametros : (admin)
+[ 26/10/2013 03:24:08 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:24:08 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:24:08 ] SQL parametros : (admin)
+[ 26/10/2013 03:24:10 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:24:10 ] SQL executada : 'SELECT * FROM funcionarios'
+[ 26/10/2013 03:24:10 ] SQL parametros : ()
+[ 26/10/2013 03:24:10 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:24:10 ] SQL parametros : (admin)
+[ 26/10/2013 03:24:10 ] SQL executada : 'SELECT * FROM perfis WHERE id = ?'
+[ 26/10/2013 03:24:10 ] SQL parametros : (admin)
+[ 26/10/2013 03:24:11 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:24:11 ] SQL executada : 'SELECT * FROM banners'
+[ 26/10/2013 03:24:11 ] SQL parametros : ()
+[ 26/10/2013 03:24:11 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:24:11 ] SQL parametros : (admin)
+[ 26/10/2013 03:24:12 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:24:12 ] SQL executada : 'SELECT * FROM conteudos'
+[ 26/10/2013 03:24:12 ] SQL parametros : ()
+[ 26/10/2013 03:24:12 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:24:12 ] SQL parametros : (admin)
+[ 26/10/2013 03:24:14 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:24:14 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:24:14 ] SQL parametros : (admin)
+[ 26/10/2013 03:24:14 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:24:14 ] SQL executada : 'SELECT * FROM conteudos'
+[ 26/10/2013 03:24:14 ] SQL parametros : ()
+[ 26/10/2013 03:24:14 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:24:14 ] SQL parametros : (admin)
+[ 26/10/2013 03:24:14 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:24:14 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:24:14 ] SQL parametros : (admin)
+[ 26/10/2013 03:24:17 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:24:17 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:24:17 ] SQL parametros : (front)
+[ 26/10/2013 03:24:17 ] SQL executada : 'SELECT * FROM banners'
+[ 26/10/2013 03:24:17 ] SQL parametros : ()
+[ 26/10/2013 03:24:42 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:24:42 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:24:42 ] SQL parametros : (admin)
+[ 26/10/2013 03:24:58 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:24:58 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:24:58 ] SQL parametros : (admin)
+[ 26/10/2013 03:24:59 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:24:59 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:24:59 ] SQL parametros : (front)
+[ 26/10/2013 03:24:59 ] SQL executada : 'SELECT * FROM banners'
+[ 26/10/2013 03:24:59 ] SQL parametros : ()
+[ 26/10/2013 03:25:06 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:25:06 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:25:06 ] SQL parametros : (front)
+[ 26/10/2013 03:25:06 ] SQL executada : 'SELECT * FROM banners'
+[ 26/10/2013 03:25:06 ] SQL parametros : ()
+[ 26/10/2013 03:25:07 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:25:07 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:25:07 ] SQL parametros : (admin)
+[ 26/10/2013 03:26:04 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:26:04 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:26:04 ] SQL parametros : (front)
+[ 26/10/2013 03:29:37 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:29:37 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:29:37 ] SQL parametros : (front)
+[ 26/10/2013 03:29:47 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:29:47 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:29:47 ] SQL parametros : (front)
+[ 26/10/2013 03:29:50 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:29:50 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:29:50 ] SQL parametros : (front)
+[ 26/10/2013 03:30:41 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:30:41 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:30:41 ] SQL parametros : (front)
+[ 26/10/2013 03:30:45 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:30:45 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:30:45 ] SQL parametros : (front)
+[ 26/10/2013 03:30:47 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:30:47 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:30:47 ] SQL parametros : (front)
+[ 26/10/2013 03:30:51 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:30:51 ] SQL executada : 'SELECT * FROM conteudos WHERE id = ?'
+[ 26/10/2013 03:30:51 ] SQL parametros : (1)
+[ 26/10/2013 03:30:51 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:30:51 ] SQL parametros : (front)
+[ 26/10/2013 03:30:53 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:30:53 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:30:53 ] SQL parametros : (front)
+[ 26/10/2013 03:30:53 ] SQL executada : 'SELECT * FROM banners'
+[ 26/10/2013 03:30:53 ] SQL parametros : ()
+[ 26/10/2013 03:34:09 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:34:09 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:34:09 ] SQL parametros : (front)
+[ 26/10/2013 03:34:09 ] SQL executada : 'SELECT * FROM banners'
+[ 26/10/2013 03:34:09 ] SQL parametros : ()
+[ 26/10/2013 03:34:14 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 03:34:14 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 03:34:14 ] SQL parametros : (front)
+[ 26/10/2013 03:34:14 ] SQL executada : 'SELECT * FROM banners'
+[ 26/10/2013 03:34:14 ] SQL parametros : ()
+[ 26/10/2013 04:27:31 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 04:27:31 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 04:27:31 ] SQL parametros : (front)
+[ 26/10/2013 04:27:31 ] SQL executada : 'SELECT * FROM banners'
+[ 26/10/2013 04:27:31 ] SQL parametros : ()
+[ 26/10/2013 04:27:32 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 04:27:32 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 04:27:32 ] SQL parametros : (front)
+[ 26/10/2013 04:28:25 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 04:28:25 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 04:28:25 ] SQL parametros : (front)
+[ 26/10/2013 04:28:28 ] Conectado ao banco 'pgsql'
+[ 26/10/2013 04:28:28 ] SQL executada : 'SELECT descricao, link FROM menus WHERE prf_id = ? ORDER BY id ASC'
+[ 26/10/2013 04:28:28 ] SQL parametros : (front)
+[ 26/10/2013 04:28:28 ] SQL executada : 'SELECT * FROM banners'
+[ 26/10/2013 04:28:28 ] SQL parametros : ()

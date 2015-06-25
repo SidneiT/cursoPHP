@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>WsCalc Client</title>
+
+<script type="text/javascript">
+	function executarOperacao(operacao) {
+		// recuperar os valores dos input's 'num_a' e 'num_b'
+		var num_a = document.getElementById('num_a').value;
+		var num_b = document.getElementById('num_b').value;
+
+		var url_wscalc = 'http://localhost/exemplos_aula/Capitulo4/rest/servico.php?retorno=json&operacao='
+				+ operacao + '&num_a=' + num_a + '&num_b=' + num_b;
+
+		// criando objeto da classe XMLHttpRequest
+		var ajax = new XMLHttpRequest();
+
+		// abrir uma requisicao GET
+		ajax.open('GET', url_wscalc, true);
+
+		// configurar o cabeçalho da requisicao (POST)
+		// ajax.setRequestHeader('Content-type', 
+		//                      'application/x-www-form-urlencoded');
+
+		// enviar paramatros para endereço do Web Service
+		// send => GET não tem parametro
+		// send => POST => é informado parametro
+		//         "chave1=valor&chave2=valor..."  
+		ajax.send();
+
+		// tratar o retorno da requisicao
+		ajax.onreadystatechange = function() {
+			// requisicao concluiu, e status == 200 ('OK')
+			if (ajax.readyState == 4 && ajax.status == 200) {
+				// se tudo ocorreu bem com a requisição
+				// tratar o json de resposta
+				// transformar o json de resposta em 'elemento' JS
+				var resposta = JSON.parse(ajax.responseText, 'reviver');
+
+				if (resposta.erro != null) {
+					// Webservice retornou mensagem de erro
+					alert(resposta.erro);
+				} else {
+					// webservice NÃO retornou erro
+					document.getElementById('resultado').innerHTML = resposta.resultado;
+				}
+
+			} else if (ajax.status == 404) {
+				alert('WebService não encontrado!');
+			}
+		}
+
+	}
+</script>
+</head>
+<body>
+
+	<table border="2">
+		<tr>
+			<td colspan="2">
+				<div id="resultado"></div>
+			</td>
+		</tr>
+		<tr>
+			<td><input type="text" id="num_a" size="5" /></td>
+			<td><input type="text" id="num_b" size="5" /></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="+"
+				onclick="executarOperacao('soma');" /></td>
+			<td><input type="button" value="-"
+				onclick="executarOperacao('subtracao');" /></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="/"
+				onclick="executarOperacao('divisao');" /></td>
+			<td><input type="button" value="*"
+				onclick="executarOperacao('multiplicao');" /></td>
+		</tr>
+
+	</table>
+
+</body>
+</html>

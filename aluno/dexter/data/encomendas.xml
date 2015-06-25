@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<encomendas ultimo_id="3">
+  <encomenda id="1" dt_criacao="2013-10-24 12:00:23" dt_edicao="2013-10-26 03:18:13">
+    <origem>São Paulo</origem>
+    <destino>Londrina</destino>
+    <atual>Curitiba</atual>
+  </encomenda>
+  <encomenda id="2" dt_criacao="2013-10-24 12:00:23" dt_edicao="2013-10-26 03:18:23">
+    <origem>São Paulo</origem>
+    <destino>Assis</destino>
+    <atual>Ourinhos</atual>
+  </encomenda>
+  <encomenda id="3" dt_criacao="2013-10-26 03:19:54" dt_edicao="2013-10-26 03:19:54">
+    <origem>Recife</origem>
+    <destino>São Paulo</destino>
+    <atual>Belo Horizonte</atual>
+  </encomenda>
+</encomendas>

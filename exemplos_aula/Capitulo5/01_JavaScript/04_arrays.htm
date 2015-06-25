@@ -1,0 +1,31 @@
+<script type="text/javascript">
+
+  //1ª forma de declaracao de array
+  var pessoa = {nome : 'Fulano', sobrenome : 'da Silva'};
+
+  for( elemento in pessoa ) {
+    document.write( pessoa[elemento] + '<br>' );
+  }
+
+  document.write( '<hr>' );
+
+  // 2ª forma
+  var mensagem = [ 'fulano', '4Linux', 'bem vindo ao curso' ];
+  
+  for( elemento in mensagem ) {
+    document.write( mensagem[elemento] + '<br>' );
+  }
+
+  document.write( '<hr>' );
+
+  // 3ª forma
+  var instrutores_php = new Array();
+  instrutores_php['inst-1'] = 'Willian';
+  instrutores_php['inst-2'] = 'Thiago';
+  instrutores_php['inst-3'] = 'Denis';
+  // ...
+  for( elemento in instrutores_php ) {
+    document.write( instrutores_php[elemento] + '<br>' );
+  }
+
+</script>

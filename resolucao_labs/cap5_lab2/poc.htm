@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>Client</title>
+
+<script type="text/javascript">
+
+	function consultar() {
+		
+		// recuperar o valor do input 'encomenda'
+		var encomenda = document.getElementById('encomenda').value;
+		
+		var url_ws = './ws_soap_client.php?&id=' + encomenda;
+
+		// criando objeto da classe XMLHttpRequest
+		var ajax = new XMLHttpRequest();
+
+		// abrir uma requisicao GET
+		ajax.open('GET', url_ws, true);
+		ajax.send();
+
+		// tratar o retorno da requisicao
+		ajax.onreadystatechange = function() {
+			
+			// requisicao concluiu, e status == 200 ('OK')
+			if (ajax.readyState == 4 && ajax.status == 200) {
+				
+				// se tudo ocorreu bem com a requisição
+				// tratar o json de resposta
+				// transformar o json de resposta em 'elemento' JS
+				var resposta = JSON.parse(ajax.responseText, 'reviver');
+
+				var resultado = document.getElementById('resultado');
+
+				resultado = '<b>Id :</b> '      + resposta.id + '<br>'
+				          + '<b>Origem :</b> '  + resposta.origem + '<br>'
+				          + '<b>Destino :</b> ' + resposta.destino + '<br>'
+				          + '<b>Atual :</b> '   + resposta.atual + '<br>'
+				          
+				document.getElementById('resultado').innerHTML = resultado;
+			
+
+			} else if (ajax.status == 404) {
+				alert('WebService não encontrado!');
+			}
+		}
+
+	}
+</script>
+</head>
+<body>
+
+	<table border="2">
+		<tr>
+			<td><input type="text" id="encomenda" size="5" /></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="Consultar"
+					   onclick="consultar()" /></td>
+		</tr>
+	</table>
+	
+	<div id="resultado"></div>
+
+</body>
+</html>

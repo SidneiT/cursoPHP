@@ -1,0 +1,26 @@
+<script type="text/javascript">
+  
+  var nome = "4Linux|Rua Vergueiro|3057";
+            //01234567890
+
+  // transformando string em array
+  // semelhante ao 'explode' do PHP
+  var dados = nome.split('|');
+
+  document.write('<b>' + dados[0] + '</b><br>');
+  document.write(dados[1] + ', ' + dados[2]);
+
+  document.write('<hr>');
+
+
+  // 'cortando' string
+  // de indice 'x' extrair 'y' caracteres
+  var nova_string = nome.substr(3, 5);
+  document.write( nova_string + '<hr>'); 
+
+
+  // 'cortando' string entre dois indices
+  var string2 = nome.substring(1, 5);
+  document.write( string2 + '<hr>');
+
+</script>

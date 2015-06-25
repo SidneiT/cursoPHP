@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apostilas>
+	<apostila versao="1.0">
+		<titulo>Desenvolvimento Web com PHP</titulo>
+		<topicos>
+			<topico>Configuração de Ambiente</topico>
+			<topico>Fundamentos da Linguagem PHP</topico>			
+		</topicos>
+	</apostila>
+</apostilas>

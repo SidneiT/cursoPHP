@@ -1,0 +1,43 @@
+<html>
+  <head>
+
+    <script type="text/javascript">
+      function alterarTitulo( titulo ) {
+        document.title = titulo;
+      }
+
+      function getUrl() {
+        alert( document.URL );
+      }
+
+      function alterarValor( id_div, valor ) {
+        document.getElementById( id_div ).innerHTML = valor;
+      }
+    </script>
+
+  </head>
+  <body>
+
+    <div id="acao"></div>
+
+    <input type="button" onclick="alterarTitulo('Titulo Página =)')" 
+           value="Alterar Titulo" />
+
+    <br/>
+    <input type="button" onclick="getUrl()" value="Exibir URL" />
+
+    <br/>
+    <input type="button" 
+           onclick="alterarValor('acao', 'alterando valor elemento')"
+           value="Alterar Valor Elemento DIV" />
+
+
+  </body>
+</html>
+
+
+
+
+
+
+

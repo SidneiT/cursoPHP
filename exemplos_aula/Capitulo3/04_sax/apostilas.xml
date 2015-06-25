@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apostilas>
+	<apostila versao="1.0">
+		<codig>500</codig>
+		<titulo>Desenvolvimento Web com PHP</titulo>
+	</apostila>
+	<apostila versao="1.0">
+		<codig>501</codig>
+		<titulo>Desenvolvimento OO com PHP</titulo>
+	</apostila>
+	<apostila versao="1.0">
+		<codig>502</codig>
+		<titulo>Desenvolvimento Enterprise com PHP</titulo>
+	</apostila>
+</apostilas>

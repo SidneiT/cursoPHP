@@ -1,0 +1,25 @@
+<script type="text/javascript">
+  
+  var array1 = [23, 34, 10, 21, 9];
+
+  var array2 = [0, 1, 2, 3, 4];
+
+  // concatenando Array
+  var array3 = array1.concat( array2 );
+
+  for( x in array3 ) {
+    document.write( array3[x] + ' ' );
+  }
+  document.write( '<hr>' );
+
+
+  // unindo elementos array gerando uma string
+  // semelhante ao 'implode' do PHP
+  document.write( array1.join('?') );
+  document.write( '<hr>' );
+
+  // ordenacao
+  var array4 = array3.sort();
+  document.write( array4.join(', ') );
+
+</script>
