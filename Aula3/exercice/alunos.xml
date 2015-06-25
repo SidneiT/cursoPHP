@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <escola>
-	<aluno>
+	<aluno id="0">
 		<nome>Sidnei Teixeira</nome>
 		<email>sidnei@email.com</email>
 		<senha>1234</senha>
